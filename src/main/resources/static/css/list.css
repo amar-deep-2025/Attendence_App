@@ -1,0 +1,108 @@
+/* ====== General Styles ====== */
+body {
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    background-color: #f9fafc;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* ====== Page Title ====== */
+h2 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* ====== Buttons / Links ====== */
+a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Add Button */
+.add-btn {
+    display: inline-block;
+    background-color: #28a745;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.add-btn:hover {
+    background-color: #218838;
+}
+
+/* ====== Messages ====== */
+.message {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 6px;
+    width: 60%;
+    margin: 10px auto;
+}
+
+.message.success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.message.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+/* ====== Table ====== */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* ====== Action Links ====== */
+.actions a {
+    color: #007bff;
+    margin: 0 5px;
+    transition: 0.2s;
+}
+
+.actions a:hover {
+    color: #0056b3;
+}
+
+.actions a.delete {
+    color: #dc3545;
+}
+
+.actions a.delete:hover {
+    color: #a71d2a;
+}
